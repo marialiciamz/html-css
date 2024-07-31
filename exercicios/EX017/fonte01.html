@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+           font-family:'Work Sans', Arial, Helvetica, sans-serif;
+           /* 
+           Medidas absolutas
+           cm, mm, in (polegadas), px, pt, pc
+            
+           Medidas Relativas
+           em, ex, rem, vw, vh, %
+           16px geralmente = 1em
+           */
+           font-size: 1em;
+            
+           /* lighter normal bold bolder */
+        }
+        h1{
+            /* shorthand font
+            -font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla illo nemo, eaque magnam, dignissimos, asperiores voluptatem omnis ipsa cupiditate harum? Deleniti dolore repellat ab obcaecati aspernatur est voluptate consequatur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ipsum voluptatem nisi, expedita impedit repudiandae doloribus minus itaque aspernatur aliquid amet beatae quaerat! Repudiandae beatae vero eius aperiam pariatur. A!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis esse mollitia, perspiciatis adipisci iste a amet laborum corrupti magnam itaque quae optio hic incidunt autem, ratione eveniet totam consequatur minus.</p>
+    <h2>Subtítulo de exemplo</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim dolores reprehenderit, mollitia dignissimos architecto alias provident voluptas consequuntur suscipit at quis quas laboriosam incidunt repellat autem ut facere ullam aliquam.</p>
+</body>
+</html>
