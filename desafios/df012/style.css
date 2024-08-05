@@ -4,8 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+
 *{
     margin: 0px;
+    padding: 0px;
+    font-size:1em;
 }
 html, body{
     min-height: 100vh;
@@ -21,10 +24,9 @@ header>h1{
     font-family: Passion One, sans-serif;
     font-size: 3em;
     font-variant: small-caps;
+    font-size: 10vw;
 }
-header p{
-    font-size: 0.8em;
-}
+
 header a, footer a{
     color: white;
     text-decoration: none;
@@ -33,30 +35,31 @@ header a, footer a{
 header a:hover, footer a:hover{
     text-decoration: underline;
 }
-main section{
-   
+section{
+    font-family: Sriracha, cursive ;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px; 
+    font-size: 3vw;
 }
-main p{
-    font-family: Sriracha, sans-serif;
-   
-}
-main pre{
 
+section.imagem>p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.305);
+    
 }
 section.imagem{
     background-position: right center;
     background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
     background-attachment: fixed;
-    
-    
 }
 section.normal{
-   
-}
-article.texto{
-    background-color: rgba(0, 0, 0, 0.341);
-    color: white;
-    
+    background-color: white;
+    color: black;
 }
 footer{
     background-color: black;
